@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { useTodo } from '../contexts/TodoContext';
 
-function TodoForm() {
+function TodosForm() {
     const [todo, setTodo] = useState("")
     const { addTodo } = useTodo()
 
@@ -33,4 +33,4 @@ function TodoForm() {
     );
 }
 
-export default TodoForm;
+export default TodosForm;
